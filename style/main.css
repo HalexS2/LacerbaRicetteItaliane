@@ -1,0 +1,66 @@
+/******************* GENERAL *******************/
+body{
+    font-family: Corbel, Arial, sans-serif;
+    margin: 0;
+}
+
+a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+
+/******************* HEADER *******************/
+#header{
+    background-color: rgb(80, 196, 103);
+}
+
+h1{
+    font-size: 36px;
+    text-align: center;
+    margin: 0;
+    padding: 15px 0 0 0;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+h2{
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+#nav{
+    background-color: rgb(69, 164, 117);
+    text-align: center;
+    list-style-type: none;
+}
+
+#nav li{
+    display: inline-block;
+    padding: 6px 8px 6px 8px;
+}
+
+#nav li a{
+    color: white;
+}
+
+#nav li:hover{
+    background-color: rgb(80, 196, 103);
+}
+
+/******************* CONTENT *******************/
+#content{
+    width: 600px;
+    margin: 30px auto 30px auto;
+}
+
+#content h4{
+    border-bottom: rgb(80, 196, 103) solid 3px;
+}
+
+#images{
+    width: 600px;
+}
+
